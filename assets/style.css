@@ -1,0 +1,28 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Quicksand:wght@300;400&display=swap');
+
+  :root {
+    --Playfair: 'Playfair Display', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --dark: #3c393c;
+    --extraDark:#2b3b3b;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--Quicksand);
+}
+body{
+    background-color: var(--dark);
+    color: white;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
